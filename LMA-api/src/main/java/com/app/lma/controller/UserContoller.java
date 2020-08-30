@@ -31,7 +31,7 @@ public class UserContoller {
 	@Autowired
 	UserRepository userRepository;
 	
-	@GetMapping("/rest/users")
+	@GetMapping("/users")
 	public List<User> getAllUser(){
 		return userRepository.findAll();
 	}
