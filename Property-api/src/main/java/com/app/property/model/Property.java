@@ -3,6 +3,7 @@
  */
 package com.app.property.model;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
@@ -10,6 +11,7 @@ import javax.persistence.Id;
  * @author karthi sabari
  *
  */
+@Entity
 public class Property {
 	@Id
 	@GeneratedValue
