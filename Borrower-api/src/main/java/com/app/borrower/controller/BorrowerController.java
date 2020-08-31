@@ -25,7 +25,7 @@ public class BorrowerController {
 	@Autowired
 	BorrowerRepository borrowerRepository;
 	
-	@GetMapping("/rest/borrowers")
+	@GetMapping("/borrowers")
 	public List<Borrower> getAllBorrower(){
 		return borrowerRepository.findAll();
 	}
